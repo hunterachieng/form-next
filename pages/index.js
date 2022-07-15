@@ -1,5 +1,18 @@
+
+
+import Portfolio from "../components/Portfolio";
+import PortfolioTabs from "../components/Tabs";
+import Navigation from "../components/Navigation";
+
 function HomePage(){
-  return <div>Welcome to Hunters portfolio!</div>
+  return(
+    <>
+    <PortfolioTabs/>
+    <Portfolio/>
+    
+    </>
+  )
+
 }
 
 export default HomePage
